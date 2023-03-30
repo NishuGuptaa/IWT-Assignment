@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Exercise 18</title>
+        <style>
+            .container{
+                border: 2px dashed red;
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(147, 30, 206);
+                
+                height: 100%;
+                width:100%;
+                border-color: rgb(5, 5, 5);
+            
+            }
+            
+            .one >img{
+                
+                height: 150px;
+                width: 150px;
+                
+            }
+            .one{
+                width: 100px;
+                height: 100px;
+                position:relative;
+                animation-name: animation;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            
+            
+            @keyframes animation{
+                0%   { left:0px; top:5px;}
+                25%  { left:1085px; top:0px;}
+                50%  {left:1085px; top:440px;}
+                75%  { left:0px; top:440px;}
+                100%  { left:0px; top:10px;}
+                
+            }
+        
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="one">
+                <img src="images/12.jpeg"/>
+            </div>
+        </div>
+    </body>
+</html>

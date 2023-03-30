@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Guess the number Game</title>
+    <style>
+        div{
+            margin: auto;
+            border: 5px solid brown;
+            font-size: 30px;
+            padding: 10px;
+            text-align: center;
+            height: 260px;
+            width: 600px;
+            background-color: khaki;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <script> 
+            x=getRandom();
+    
+            function getRandom(){
+                return Math.floor(Math.random()*1000)+1;
+            }
+    
+            console.log(x)
+    
+            a=parseInt(prompt("Guess a number between between 1 to 1000"));
+           // document.write(a+"<br>")
+    
+            while(a!=x){
+                if(a>x){
+                    alert("Too High!! Try Again");
+                }
+                else{
+                    alert("Too low!! Try Again");
+                }
+                a=parseInt(prompt("Guess a number between 1 to 1000"));
+            }
+    
+            document.write("Congratulations!! You guessed the correct number.")
+        </script>
+    </div>
+    
+</body>
+</html>

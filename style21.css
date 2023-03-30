@@ -1,0 +1,138 @@
+.navi {
+    position: relative;
+    height: 10%;
+    width: 100%;
+}
+
+.navi>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
+
+.navi>ul li {
+    margin: 5px;
+    color: bisque;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.navi>ul>a {
+    text-decoration: none;
+}
+
+.navi>ul li:hover {
+    transform: scale(1.5);
+}
+
+.hidden {
+    list-style: none;
+    display: none;
+}
+
+.ab:hover .hidden {
+    display: block;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    width: 55%;
+    justify-content: space-evenly;
+}
+
+.nav a {
+    margin: 7px;
+    color: blue;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.container2 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-image: url("images/bns.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container3 {
+    width: 60%;
+    justify-content: flex-start;
+}
+
+.container4 {
+    width: 40%;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, .5);
+    color: aliceblue;
+}
+
+.container4>p {
+    margin-top: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.container5 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.container6 {
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+}
+
+.container7 {
+    width: 30%;
+    margin: 20px;
+}
+
+pre {
+    font-size: 18px;
+
+}
+
+.newsEvents {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(168, 234, 241);
+}
+
+.news {
+    width: 50%;
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.events {
+    width: 50%;
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+}

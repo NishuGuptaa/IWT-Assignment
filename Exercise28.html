@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise 28</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        name = prompt("Enter your name");
+        document.write("<h1>");
+        var day = new Date();
+        var hr = day.getHours();
+        if ((hr == 5) || (hr == 6) || (hr == 7) || (hr == 8) || (hr == 9) || (hr == 10) || (hr == 11)) {
+            document.write("Good Morning! " + name);
+        }
+        if ((hr == 12) || (hr == 13) || (hr == 14) || (hr == 15) || (hr == 16) || (hr == 17)) {
+            document.write("Good Afternoon! " + name);
+        }
+        if ((hr == 18) || (hr == 19) || (hr == 20) || (hr == 21) || (hr == 22)) {
+            document.write("Good Evening! " + name);
+        }
+        if ((hr == 23) || (hr == 0) || (hr == 1) || (hr == 2) || (hr == 3) || (hr == 4)) {
+            document.write("Good Night! " + name);
+        }
+        document.write("</h1>");
+    </script>
+</body>
+
+</html>
